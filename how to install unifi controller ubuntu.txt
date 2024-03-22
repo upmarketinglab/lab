@@ -1,4 +1,0 @@
-apt-get update; apt-get install ca-certificates wget -y
-wget https://github.com/upmarketinglab/lab/blob/main/unifi-update.sh
-bash unifi-update.sh
-  
