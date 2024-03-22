@@ -1,0 +1,3 @@
+apt-get update; apt-get install ca-certificates wget -y
+wget https://get.glennr.nl/unifi/extra/unifi-easy-encrypt.sh
+bash unifi-easy-encrypt.sh
