@@ -1,0 +1,75 @@
+INSTALL UNIFI CONTROLLER
+
+1) Copy the link location of the script.
+
+2) SSH into your Ubuntu/Debian machine, and login as root. ( Ubuntu | sudo -i | Debian | su )
+
+2a) Make sure the ca-certificates package is installed.
+
+apt-get update; apt-get install ca-certificates wget -y
+
+3) Download the script by executing the following command. ( change it to your wanted version )
+
+wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-6.5.55.sh
+
+    Install the latest and greatest UniFi Network application with 1 line. ( copy paste )
+
+    rm unifi-latest.sh &> /dev/null; wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-latest.sh && bash unifi-latest.sh
+
+4) Now run the script with the command below.
+
+bash unifi-6.5.55.sh
+
+***********************************************************************
+
+UPDATE UNIFI CONTROLLER
+
+1) Copy the link location of the script.
+
+2) SSH into your Ubuntu/Debian machine, and login as root. ( Ubuntu | sudo -i | Debian | su )
+
+2a) Users with a UDM/UDM-Pro running UniFi OS have to first enter the shell with unifi-os shell.
+
+3) Make sure the ca-certificates package is installed.
+
+apt-get update; apt-get install ca-certificates wget -y
+
+4) Execute the following commands to download the script.
+
+wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-update.sh
+
+    Run this 1 liner if you wan't to do step 3/4/5 in 1 go.
+
+    rm unifi-update.sh &> /dev/null; wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-update.sh && bash unifi-update.sh
+
+5) Now run the script with the command below.
+
+bash unifi-update.sh
+
+**********************************************************************
+
+UNIFI LET'S ENCRYPT CERTIFICATE 
+
+
+1) Copy the link location of the script.
+
+2) SSH into your Ubuntu/Debian machine, and login as root. ( Ubuntu | sudo -i | Debian | su )
+
+2a) Users with a UDM/UDM-Pro running UniFi OS have to first enter the shell with unifi-os shell.
+
+3) Make sure the ca-certificates package is installed.
+
+apt-get update; apt-get install ca-certificates wget -y
+
+4) Execute the following commands to download the script.
+
+wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-easy-encrypt.sh
+
+    Run this 1 liner if you wan't to do step 3/4/5 in 1 go.
+
+    rm unifi-easy-encrypt.sh &> /dev/null; wget https://raw.githubusercontent.com/upmarketinglab/lab/unifi-controller-ubuntu/unifi-easy-encrypt.sh && bash unifi-easy-encrypt.sh
+
+5) Now run the script with the command below.
+
+bash unifi-easy-encrypt.sh
+
